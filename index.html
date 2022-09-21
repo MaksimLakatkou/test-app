@@ -5,42 +5,74 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Test App</title>
+	<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-	<table>
-		<tr>
-			<td><img src="https://file.liga.net/images/general/2020/09/08/20200908171549-5386.jpg?v=1599578314" alt="альтернативный текст" width="200"></td>
-			<td>Maksim</td>
-		</tr>
-	</table>
-	<hr />
-	<h1>Соц сети</h1>
-	<a href="google.com">link</a>
-	<hr />
-	<h1>Hobby</h1>
-	<ul>
-		<li>Bycicle</li>
-		<li>Jump</li>
-	</ul>
-	<hr />
-	<h1>Expirience</h1>
-	<table>
-		<tr>
-			<td>PSK</td>
-			<td>2020</td>
-		</tr>
-		<tr>
-			<td>XBS</td>
-			<td>2022</td>
-		</tr>
-	</table>
-	<hr />
-	<h1>Link with me</h1>
-	<form action="/">
-		<label for="lab1">Name</label>
-		<input type="text">
-		<br/>
-		<input type="button">
-	</form>
+	<div class="container">
+		<div class="info">
+			<img class="avatar" src="https://file.liga.net/images/general/2020/09/08/20200908171549-5386.jpg?v=1599578314" alt="альтернативный текст">
+			<div class="info-text">
+				<h1>Maksim</h1>
+				<p>I software developer</p>
+			</div>
+		</div>
+
+		</table>
+		<hr />
+		<!-- <div class="social"> -->
+			<h1>Соц сети</h1>
+			<a href="google.com">link</a>
+			I
+			<a href="google.com">link</a>
+		<!-- </div> -->
+		<div class="card bg-yellow">
+			<h1>Hobby</h1>
+			<ul>
+				<li>Bycicle</li>
+				<li>Jump</li>
+			</ul>
+		</div>
+		<div class="card bg-green">
+			<h1>Expirience</h1>
+			<table>
+				<tr>
+					<td>PSK</td>
+					<td>2020</td>
+				</tr>
+				<tr>
+					<td>XBS</td>
+					<td>2022</td>
+				</tr>
+			</table>
+		</div>
+		<div class="contact">
+			<h1>Link with me</h1>
+			<form action="/">
+				<div class="row">
+					<div class="form_group">
+						<label for="lab1">Name</label>
+						<input type="text">
+					</div>
+					<div class="form_group">
+						<label for="lab2">Email</label>
+						<input type="text">
+					</div>
+				</div>
+				<div class="form_group">
+					<input type="button" value="but">
+				</div>
+				<div class="form_group">
+					<input type="textarea">
+				</div>
+			</form>
+		</div>
+		<div class="box-model">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<div style="margin-bottom: 500px"></div>
+	</div>
 </body>
 </html>
